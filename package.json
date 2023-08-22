@@ -1,0 +1,22 @@
+{
+    "name": "whiteboard",
+    "version": "1.0.0",
+    "description": "A multiplayer website acting as a global whiteboard",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "socket.io": "^4.4.1",
+      "express": "^4.17.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    },
+    "engines": {
+      "node": ">=12.0.0"
+    }
+  }
